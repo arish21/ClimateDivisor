@@ -28,8 +28,8 @@ const Welcome = () => {
         <div className="center-button">
           <div class="row justify-content-evenly">
             <div class="row">
-              <div class="col-7"><button className=" login-btn">Login</button> </div>
-              <div class="col-5 "><button className="signup-btn">Signup</button></div>
+              <div class="col-7"><button className="login-btn" href="/login">Login</button> </div>
+              <div class="col-5 "><button className="signup-btn" href="/signup">Signup</button></div>
             </div>
           </div>
         </div>
