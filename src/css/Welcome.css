@@ -1,0 +1,67 @@
+@import url("https://fonts.google.com/specimen/Poppins?query=popp");
+
+
+.container{
+  
+}
+
+.heading-intro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  line-height: 0;
+  margin-top: 20%;
+}
+
+.heading-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  line-height: 0;
+  margin-top: 4.5%;
+}
+
+.linneeeeee{
+  display: grid;
+  /* align-items: center;
+  justify-content: center; */
+  margin-left: 0vw;
+  margin-top: 0vh;
+  line-height: 0;
+  width: 100vw;
+}
+
+.or-line1{
+  display: flex;
+  height: 1px;
+  background: black;
+  width: 15vw;
+  line-height: 0;
+  margin-left: 32vw;
+  margin-top: 10vh;
+}
+
+.or{
+  display: inline-flex;
+ 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  margin-left: 17vw;
+}
+
+
+.or-line2{
+  display: inline-flex;
+  height: 1px;
+  background: black;
+  width: 15vw;
+  margin-left: 53vw;
+  margin-top: -0.1vh;
+}
+
