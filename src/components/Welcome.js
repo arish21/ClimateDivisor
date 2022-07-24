@@ -24,6 +24,16 @@ const Welcome = () => {
           </div>
         </div>
       </div>
+      <div className="button-area">
+        <div className="center-button">
+          <div class="row justify-content-evenly">
+            <div class="row">
+              <div class="col-7"><button className=" login-btn">Login</button> </div>
+              <div class="col-5 "><button className="signup-btn">Signup</button></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
