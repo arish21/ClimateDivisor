@@ -1,199 +1,55 @@
 @import url("https://fonts.google.com/specimen/Poppins?query=popp");
 
-
-
-.heading-intro{
+.heading{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  vertical-align: bottom;
+}
+
+.container-intro{
+  display: flex;
+  margin-top: 20%;
   font-size: 6vw;
   font-family: "Helvetica Neue";
   font-weight: 500;
-  line-height: 0;
-  margin-top: 20%;
-}
-
-.heading-info{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2vw;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-weight: 300;
-  line-height: 0;
-  margin-top: 4.5%;
-}
-
-/* ------------------------------------------------------------------------------------------------ */
-                                        /* CSS for ----- OR ----- */
-
-.center-or{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 9vh;
-}
-
-.dicv{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 500px;
-  max-width: 500px;
-  margin-bottom: 4px;
-  margin-top: 4px;
-  box-sizing: border-box;
-  border: 0 solid black;
-  -webkit-box-align: stretch;
-  -webkit-box-orient: vertical;
-}
-
-.dicv2{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  -webkit-box-direction: normal;
-    -webkit-box-orient: horizontal;
-    flex-direction: row;
-    margin-left: -4px;
-    margin-right: -4px;
-    margin-bottom: 4px;
-    margin-top: 4px;
-    -webkit-box-align: stretch;
-    box-sizing: border-box;
-}
-
-.dicv3{
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  -webkit-box-pack: center;
-  flex-basis: 0px;
-  margin-left: 4px;
-  margin-right: 4px;
-  flex: 1;
-  box-sizing: border-box;
-}
-
-.dicv4{
-  flex-basis: auto;
-  margin-left: 4px;
-  margin-right: 4px;
-  -webkit-box-align: stretch;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  align-items: stretch;
-  border: 0 solid black;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  margin-top: 0px;
-  min-height: 0px;
-}
-
-.dicv5{
-  color: rgb(0, 0, 0);
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 20px;
-  overflow-wrap: break-word;
-  min-width: 0px;
-  display: flex;
-  border: 0 solid black;
-  box-sizing: border-box;
-  white-space: pre-wrap;
-  flex-direction: row;
-}
-
-.dicv6{
-  -webkit-box-pack: center;
-  justify-content: center;
-  min-width: 0px;
-  flex-basis: 0px;
-  margin-left: 4px;
-  margin-right: 4px;
-  flex: 1;
-  align-items: stretch;
-  border: 0 solid black;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-.or-line1{
-  display: flex;
-  height: 1px;
-  background: black;
-  width: 15vw;
-
-  -webkit-box-align: stretch;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  align-items: stretch;
-  box-sizing: border-box;
-}
-
-.or{
-  display: flex;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  overflow-wrap: break-word;
-  min-width: 0px;
-  white-space: inherit;
-  border: 0 solid black;
-  box-sizing: border-box;
-  flex-direction: row;
-}
-
-
-.or-line2{
-  display: flex;
-  height: 1px;
-  background: black;
-  width: 15vw;
-  -webkit-box-align: stretch;
-  border: 0 solid black;
-  box-sizing: border-box;
-  flex-basis: auto;
-  flex-direction: column;
-  position: relative;
-}
-
-
-/* ------------------------------------------------------------------------------------------------ */
-
-.button-area{
-  display: fixed;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2vh;
-  width: 10;
-}
-
-.center-button{
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  margin-left: -40px;
-  margin-right: -40px;
-  margin-bottom: 40px;
-  margin-top: 40px;
   
 }
 
-.login-btn{
-  border-radius: 30px;
-  background: #272323;
-  color: aliceblue;
-  font-weight: 700;
-  width: 100px;
-  margin-right: 190px;
+.heading-info{
+  font-size: 2vw;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  margin-top: -2vh;
 }
 
-.signup-btn{
-  border: none;
-  font-weight: 600;
-  margin-left: 110px;
-  background: #fff;
+.line {
+  width: 50%; 
+  text-align: center; 
+  border-bottom: 1px solid #000; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
+
+p span { 
+   background:#fff; 
+   padding:0 10px;
+   font-size: 20px; 
+}
+
+.login{
+  color: #fff;
+  background-color: #272323;
+  border-color: #272323;
+  width: 8vw;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: large;
+}
+
+.signup{
+  font-size: large;
+  text-decoration: underline;
+  width: 8vw;
 }

@@ -1,40 +1,39 @@
 import React from "react";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Welcome = () => {
   return (
-    <div>
-      <h1 className="heading-intro">Bonjour. Hello!</h1>
-      <h4 className="heading-info">
-        Please navigate through the app using the navigation bar.
-      </h4>
-      <div className="center-or">
-        <div className="dicv">
-          <div className="dicv2">
-            <div className="dicv3">
-              <div className="or-line1"></div>
-            </div>
-            <div className="dicv4">
-              <div className="dicv5">
-                <div className="or">OR</div>
-              </div>
-            </div>
-            <div className="dicv6">
-              <div className="or-line2"></div>
-            </div>
-          </div>
-        </div>
+    <>
+      <div className="heading">
+        <p className="container-intro">Bonjour. Hello!</p>
+        <p className="heading-info">
+          Please navigate through the app using the navigation bar
+        </p>
+        
+        
+        
+        <p className="line">
+          <span>OR</span>
+        </p>
+        
+        
+        <Container>
+          <Row>
+            <Col md={{ span: 3, offset: 3 }}>
+              <Button variant="dark-btn login">Login</Button>
+            </Col>
+            <Col md={{ span: 3, offset: 2 }}>
+              <Button variant="outline-dark-btn signup">Signup</Button>
+            </Col>
+          </Row>
+        </Container>
       </div>
-      <div className="button-area">
-        <div className="center-button">
-          <div class="row justify-content-evenly">
-            <div class="row">
-              <div class="col-7"><button className="login-btn" href="/login">Login</button> </div>
-              <div class="col-5 "><button className="signup-btn" href="/signup">Signup</button></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 
