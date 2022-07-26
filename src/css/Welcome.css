@@ -10,15 +10,17 @@
 
 .container-intro{
   display: flex;
-  margin-top: 15%;
+  margin-top: 20%;
   font-size: 6vw;
   font-family: "Helvetica Neue";
   font-weight: 500;
-  background: linear-gradient(68deg, #2502FD 0%, #BC0CEC 7.7%, #FF0202 15.4%, #45A3B8 23.1%, #021BFF 30.8%, #020CFF 38.5%, #FD6B02 46.2%, #0C15EC 53.9%, #FF02C7 61.6%, #2D9BD2 69.3%, #6361C9 77%, #B9E015 84.7%, #4A9C48 92.3%,#FF0202  100%);
+  background: linear-gradient(324deg, #2502FD 0%, #BC0CEC 7.7%, #FF0202 15.4%, #45A3B8 23.1%, #021BFF 30.8%, #020CFF 38.5%, #FD6B02 46.2%, #0C15EC 53.9%, #FF02C7 61.6%, #2D9BD2 69.3%, #6361C9 77%, #B9E015 84.7%, #4A9C48 92.3%,#FF0202  100%);
+  /* background: linear-gradient(68deg, #2502FD 15%, #BC0CEC 30%, #FF0202 45%, #45A3B8 60% #B9E015 75%,  #f76a05 90%, #f76a05 100%); */
   background-size: 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
-  animation: animate 20s ease-in-out infinite;
+  animation: animate 15s ease-in infinite;
+  margin-bottom: 0;
 }
 @keyframes animate {
   to{
@@ -30,7 +32,8 @@
   font-size: 2vw;
   font-family: "Helvetica Neue";
   font-weight: 400;
-  margin-top: -2vh;
+  margin-top: -1vh;
+  margin-bottom: 0;
 }
 
 .line {
@@ -38,8 +41,10 @@
   text-align: center; 
   border-bottom: 1px solid #000; 
   line-height: 0.1em;
-  margin: 10px 0 20px; 
+  /* margin: 10px 0 20px;  */
   font-family: "Helvetica Neue";
+  margin-top: 5vh;
+  margin-bottom: 0;
 } 
 
 p span { 

@@ -9,18 +9,40 @@ import Navbar from 'react-bootstrap/Navbar';
 const NavigationBar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
-          <Navbar.Brand href="#home" className="mx-2">ClimateDivisor</Navbar.Brand>
+          <Navbar.Brand href="/" className="mx-1">Climate Divisor</Navbar.Brand>
         <Container>
 
+              
             <Nav className="m-auto">
-              <Nav.Link href="#home" className="mx-4">Home</Nav.Link>
-              <Nav.Link href="#home" className="mx-4">Forecast</Nav.Link>
-              <Nav.Link href="#home" className="mx-4">Login</Nav.Link>
-              <Nav.Link href="#home" className="mx-4">Signup</Nav.Link>
+              <Nav.Link className="mx-4" href="/">Home</Nav.Link>
+              <Nav.Link className="mx-4" href="/forecast">Forecast</Nav.Link>
+              <Nav.Link className="mx-4" href="/login">Login</Nav.Link>
+              <Nav.Link className="mx-4" href="/signup">Signup</Nav.Link>
             </Nav>
             
             <Nav className="auto">
-              <Nav.Link href="#home"></Nav.Link>
+              <Nav.Link href=""></Nav.Link>
+            </Nav>
+            <Nav className="auto">
+              <Nav.Link href=""></Nav.Link>
+            </Nav>
+            <Nav className="auto">
+              <Nav.Link href=""></Nav.Link>
+            </Nav>
+            <Nav className="auto">
+              <Nav.Link href=""></Nav.Link>
+            </Nav>
+            <Nav className="auto">
+              <Nav.Link href=""></Nav.Link>
+            </Nav>
+            <Nav className="auto">
+              <Nav.Link href=""></Nav.Link>
+            </Nav>
+            <Nav className="auto">
+              <Nav.Link href=""></Nav.Link>
+            </Nav>
+            <Nav className="auto">
+              <Nav.Link href=""></Nav.Link>
             </Nav>
         
         </Container>

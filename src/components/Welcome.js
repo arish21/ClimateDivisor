@@ -14,12 +14,13 @@ const Welcome = () => {
           Please navigate through the app using the navigation bar
         </p>
         
-        
-        
+        <br /><br />
+
         <p className="line">
           <span>OR</span>
         </p>
         
+        <br /><br /><br />
         
         <Container>
           <Row>
