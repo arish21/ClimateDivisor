@@ -1,0 +1,157 @@
+.centered-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Helvetica Neue";
+    
+}
+
+.centered-login-box{
+    height: 65vh;
+    width: 50vh;
+    border: 0.1px;
+    border-color: rgb(173, 173, 173);
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    border-right: outset;
+    border-bottom-width: medium;
+}
+
+.login-heading{
+    margin-top: 50px;
+    margin-bottom: 0rem;
+}
+
+.login-info{
+    font-size: x-large;
+}
+
+
+/* -------------------------------------- Form -------------------------------- */
+
+form {
+    padding-top: 25px;
+    max-width: 340px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  /* Input style */
+  .input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container:focus-within label {
+    transform: translate(0, 4px) scale(0.7);
+    color: #111111;
+  }
+  
+  .input-container .filled {
+    transform: translate(0, 4px) scale(0.8);
+  }
+  
+  .input-container label {
+    position: absolute;
+    pointer-events: none;
+    transform: translate(0, 14px) scale(1.2);
+    transform-origin: top left;
+    transition: 200ms cubic-bezier(0, 0, 0.1, 1) 0ms;
+    color: #808287;
+    font-size: 16px;
+    line-height: 1;
+    left: 10px;
+  }
+  
+  .input-container input {
+    height: 49px;
+    border-radius: 4px;
+    border: none;
+    padding: 24px 16px 4px 15px;
+    font-size: 16px;
+    line-height: 1;
+    outline: none;
+    box-shadow: none;
+    transition: 200ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+  }
+  
+  .input-container input:focus {
+    box-shadow: 0 0 0 0.5px #0a0a0a;
+  }
+
+  /* -------------------------------------- Form css end-------------------------------- */
+
+  .form-text{
+    max-width: 52vw;
+    margin-top: 1vh;
+    font-size: 14px;
+    color: #7b7b7b;
+  }
+
+  .login-btn-area{
+    margin-top: 2vh;
+    font-family: "Helvetica Neue";
+    
+  }
+
+  .login-btn{
+    width: 340px;
+    background: #0a0a0a;
+    color: azure;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .cancel-btn{
+    margin-top: 1vh;
+  }
+
+  .cancel-b{
+    font-weight: 700;
+    border-style: none;
+  }
+
+  .member-area{
+    margin-top: 1vh;
+  }
+
+  a{
+    color: #0a0a0a;
+  }
+
+  .line {
+    width: 70%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    font-family: "Helvetica Neue";
+  } 
+  
+.span { 
+     background:#fff; 
+     padding:0 10px;
+     font-size: 20px; 
+  }
+.or-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.icons{
+    height: 50px;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,auto);
+    grid-gap:50px /*This add space between elements, only works on grid items*/
+}
+
+.icon-btns{
+    border: none;
+}
