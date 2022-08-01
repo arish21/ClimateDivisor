@@ -1,3 +1,8 @@
+body{
+  background: rgba(252, 252, 252, 0.413);
+}
+
+
 .centered-signup-div{
     display:flex;
     align-items: center;

@@ -1,3 +1,7 @@
+body{
+  background: rgba(14, 14, 14, 0.413);
+}
+
 .centered-div{
     display:flex;
     align-items: center;

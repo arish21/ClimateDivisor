@@ -1,9 +1,9 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 const Welcome = () => {
   return (
@@ -13,22 +13,29 @@ const Welcome = () => {
         <p className="heading-info">
           Please navigate through the app using the navigation bar
         </p>
-        
-        <br /><br />
+
+        <br />
+        <br />
 
         <p className="line">
           <span>OR</span>
         </p>
-        
-        <br /><br /><br />
-        
+
+        <br />
+        <br />
+        <br />
+
         <Container>
           <Row>
             <Col md={{ span: 3, offset: 3 }}>
-              <Button variant="dark-btn login">Login</Button>
+              <Link to="/login">
+                <Button variant="dark-btn login">Login</Button>
+              </Link>
             </Col>
             <Col md={{ span: 3, offset: 2 }}>
-              <Button variant="outline-dark-btn signup">Signup</Button>
+              <Link to="/signup">
+                <Button variant="outline-dark-btn signup">Signup</Button>
+              </Link>
             </Col>
           </Row>
         </Container>
