@@ -1,4 +1,6 @@
-
+body{
+    background: rgba(251, 239, 223, 0.696);
+}
 
 /* Rest all Mobile screens */
 @media screen and (max-width: 600px) {
@@ -223,7 +225,7 @@
 
 /* For desktop, Laptops, Nest Hub, and Nest Hub Max */
 @media screen and (min-width: 913px) {
-
+    
     .card {
         display: flex;
         align-items: center;
@@ -249,7 +251,7 @@
         font-size: large;
         margin-top: 2%;
         border-radius: 25px;
-        margin-left: -35vh;
+        /* margin-left: -35vh; */
     }
 
     .search-icon{

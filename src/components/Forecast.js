@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
-import moment from "moment";
 
+
+
+console.log(process.env);
 const Forecast = () => {
   const [data, setData] = useState({});
   const [location, setLocation] = useState("");
+
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=30c07ebba8effda9650fa3a234bb351f`;
 
   const searchLocation = (event) => {
@@ -17,18 +20,12 @@ const Forecast = () => {
     }
   };
 
-  // const nowInLocalTime = Date.now() + 1000 * data.timezone;
-  // var d = (new Date()+data.timezone*1000)
-  // console.log(d)
 
   return (
     <>
-      {/* Add Weather icon here and place at proper position */}
 
       <div className="card">
         <div className="search">
-          <div className="time">{moment().format('LT')}</div>
-          
           <div>
             <input
               type="text"

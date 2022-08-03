@@ -28,7 +28,7 @@ const Welcome = () => {
         <Container>
           <Row>
             <Col md={{ span: 3, offset: 3 }}>
-              <Link to="/login">
+              <Link to="/login" className="login-button-area">
                 <Button variant="dark-btn login">Login</Button>
               </Link>
             </Col>

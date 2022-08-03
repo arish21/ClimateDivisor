@@ -1,8 +1,9 @@
 body{
-  background: rgba(252, 252, 252, 0.413);
+  background-color: #ffffff;
 }
 
-
+/* For desktop, Laptops, Nest Hub, and Nest Hub Max */
+@media screen and (min-width: 913px) {
 .centered-signup-div{
     display:flex;
     align-items: center;
@@ -13,7 +14,7 @@ body{
 }
 
 .centered-signup-box{
-    height: 75vh;
+    height: 77vh;
     width: 50vh;
     border: 0.1px;
     border-color: rgb(173, 173, 173);
@@ -115,6 +116,7 @@ form {
     font-size: 12px;
     color: #7b7b7b;
     margin-top: -2vh;
+    margin-left: 0px;
   }
 
   .icons{
@@ -129,4 +131,5 @@ form {
 
 .icon-btns{
     border: none;
+}
 }

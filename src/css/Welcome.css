@@ -1,9 +1,5 @@
 @import url("https://fonts.google.com/specimen/Poppins?query=popp");
 
-body{
-  background: rgba(226, 48, 48, 0.413);
-}
-
 /* Rest all Mobile screens */
 @media screen and (max-width: 600px) {
 

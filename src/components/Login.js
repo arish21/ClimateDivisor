@@ -32,7 +32,7 @@ const Login = () => {
           <TextInput type="password" label="Password" />
         </form>
         <div className="form-text">
-          <Form.Text className="text">
+          <Form.Text>
             <u>Forgot Password?</u>
           </Form.Text>
         </div>
